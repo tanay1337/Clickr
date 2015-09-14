@@ -1,0 +1,17 @@
+/* stylesheet for clickr */
+
+
+div.clicking-pad {
+    
+  height:280px;background-color:#4CAF50;
+}
+
+#pad-text{
+  
+  color:white;background-color:#4CAF50;
+
+}
+button#install-btn{
+
+  margin-top:2%;
+}

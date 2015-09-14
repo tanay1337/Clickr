@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Clickr</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  
+
+  <link href="http://fonts.googleapis.com/css?family=Rancho&amp;effect=3d-float" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+
+</head>
+<body>
+  <div class="container installer">
+      <div class="row">
+        <div class="col-md-12">
+          <button class="btn btn-primary btn-block btn-lg text-center" id="install-btn"><i class="fa fa-download"></i> Install app</button>
+        </div>
+      </div>
+  </div>
+  <div class="container mainApp">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h3><b>Clickr</b></h3>
+        <h5>Lets you know your tapping speed</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h4>
+          <div><i class="fa fa-clock-o"></i> Timer: <span id="timer">10</span>
+            <span class="pull-right">
+              <i class="fa fa-hand-o-up"></i> Clicks: <span id="mouse-clicks">0</span>
+            </span>
+          </div>
+        </h4>
+      </div>
+      
+    </div>
+    <div class="row">
+      <div class="col-md-12 clicking-pad">
+          <br><span id="pad-text">Timer starts with your first tap</span><br><br>
+          <button id="restart-icon" class="btn btn-default"><i class="fa fa-refresh"></i> Restart</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/clickr.js"></script>
+</body>
+</html>

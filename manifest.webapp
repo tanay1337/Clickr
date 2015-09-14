@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "name": "Clickr",
+  "description": "An app to test your tapping speed",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon_16.png",
+    "48": "/img/icons/icon_48.png",
+    "60": "/img/icons/icon_60.png",
+    "128": "/img/icons/icon_128.png"
+  },
+  "developer": {
+    "name": "Tanay Pant, Shubham Oli",
+    "url": "http://stockwolf.net"
+  },
+  "fullscreen":"true",
+  "default_locale": "en"
+}
